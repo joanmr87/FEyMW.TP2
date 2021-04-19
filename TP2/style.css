@@ -8,7 +8,28 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
 }
 
-nav a {
+#nav a {
     text-decoration: none;
     text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+}
+
+.posts article, footer section:first-child{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #CCCCCC;
+}
+
+#footer section form input:focus{
+    cursor: pointer;
+    background-color: green;
+}
+
+#footer section form textarea:focus{
+    cursor: pointer;
+    background-color: green;
 }
